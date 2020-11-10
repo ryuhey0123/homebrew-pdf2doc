@@ -3,8 +3,8 @@ class Pdf2doc < Formula
 
   desc "Add page number to some PDF files and merge it → PERFECT DOCUMENT! ⭐️"
   homepage "https://github.com/ryuhey0123/pdf2doc"
-  url "https://github.com/ryuhey0123/pdf2doc/archive/v1.1.0.tar.gz"
-  sha256 "7b5125aa676872cb46d1f98ede784fcda9f5a94f02fbd7397553054825e76133"
+  url "https://github.com/ryuhey0123/pdf2doc/archive/v1.2.0.tar.gz"
+  sha256 "6dc9f92b1a0b43d05957d8a8b6c59d52d22808029c826cf60ace20e06d991d52"
   license "MIT"
 
   depends_on "python@3.9"
@@ -37,6 +37,11 @@ class Pdf2doc < Formula
   resource "Send2Trash" do
     url "https://files.pythonhosted.org/packages/13/2e/ea40de0304bb1dc4eb309de90aeec39871b9b7c4bd30f1a3cdcb3496f5c0/Send2Trash-1.5.0.tar.gz"
     sha256 "60001cc07d707fe247c94f74ca6ac0d3255aabcb930529690897ca2a39db28b2"
+  end
+
+  resource "yaspin" do
+    url "https://files.pythonhosted.org/packages/f8/6d/7d5d081db3f399f5e345ad5107fa015f84a0c0dd62f1c9deb277ba83774e/yaspin-1.2.0.tar.gz"
+    sha256 "72e9cdbc0e797ef886c373fef2bcd6526a704a470696f9d78d0bb27951fe659a"
   end
 
   def install
