@@ -3,7 +3,7 @@ class Pdf2doc < Formula
 
   desc "Add page number to some PDF files and merge it → PERFECT DOCUMENT! ⭐️"
   homepage "https://github.com/ryuhey0123/pdf2doc"
-  url "from https://codeload.github.com/ryuhey0123/pdf2doc/tar.gz/v1.1.0"
+  url "https://github.com/ryuhey0123/pdf2doc/archive/v1.1.0.tar.gz"
   sha256 "7b5125aa676872cb46d1f98ede784fcda9f5a94f02fbd7397553054825e76133"
   license "MIT"
 
