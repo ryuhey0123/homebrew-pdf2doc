@@ -1,7 +1,7 @@
 class Pdf2doc < Formula
   include Language::Python::Virtualenv
 
-  version "1.1"
+  version "1.0.0"
   desc "Add page number to some PDF files and merge it → PERFECT DOCUMENT! ⭐️"
   homepage "https://github.com/ryuhey0123/pdf2doc"
   # url "https://github.com/ryuhey0123/pdf2doc/releases/download/v1.0/release-v1.0.tar.gz"
@@ -9,7 +9,7 @@ class Pdf2doc < Formula
   # sha256 "041c93e73caf9a0bdcf4308b0789a12870bf1c1312f84a106a6fa50916a6a708"
   license "MIT"
 
-  depends_on "python@3.8"
+  depends_on "python@3.9"
 
   resource "click" do
       url "https://files.pythonhosted.org/packages/27/6f/be940c8b1f1d69daceeb0032fee6c34d7bd70e3e649ccac0951500b4720e/click-7.1.2.tar.gz"
