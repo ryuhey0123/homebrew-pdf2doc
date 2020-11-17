@@ -4,7 +4,7 @@ class Pdf2doc < Formula
   desc "Add page number to some PDF files and merge it → PERFECT DOCUMENT! ⭐️"
   homepage "https://github.com/ryuhey0123/pdf2doc"
   url "https://github.com/ryuhey0123/pdf2doc/archive/v1.2.0.tar.gz"
-  sha256 "6dc9f92b1a0b43d05957d8a8b6c59d52d22808029c826cf60ace20e06d991d52"
+  sha256 "3c27274fc849b9c45f48ac6ee4c2a7fb764e7a87f64f0ccae72f119b200a357e"
   license "MIT"
 
   depends_on "python@3.9"
