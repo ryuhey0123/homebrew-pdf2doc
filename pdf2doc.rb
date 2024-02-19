@@ -40,8 +40,8 @@ class Pdf2doc < Formula
   end
 
   resource "yaspin" do
-    url "https://files.pythonhosted.org/packages/0e/6e/faf922412b0538663bba81cf1e741fa9856aac7b4fd80d0790521b4bbe7d/yaspin-3.0.1.tar.gz"
-    sha256 "9c04aa69cce9be83e1ea3134a6712e749e6c0c9cd02599023713e6befd7bf369"
+    url "https://files.pythonhosted.org/packages/f8/6d/7d5d081db3f399f5e345ad5107fa015f84a0c0dd62f1c9deb277ba83774e/yaspin-1.2.0.tar.gz"
+    sha256 "72e9cdbc0e797ef886c373fef2bcd6526a704a470696f9d78d0bb27951fe659a"
   end
 
   def install
